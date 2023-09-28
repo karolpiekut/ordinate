@@ -66,13 +66,17 @@ button:hover {
     font-family: "Avenir Next", Helvetica, sans-serif;
     background: orange;
     height: 40px;
-    position: absolute;
-    bottom: 20px;
-    padding: 0;
 }
 
 #add-project:hover {
     background: darkorange;
+}
+
+#projects {
+    overflow: scroll;
+    position: relative;
+    height: 533px;
+    max-height: 533px;
 }
 
 #list {
